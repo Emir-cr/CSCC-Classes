@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="functions_math"/>
+        <attribute name="authors" value="ecruzlopez"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-28 04:24:57 PM"/>
+        <attribute name="created" value="ZWNydXpsb3BlejtERTIxNS0wMjsyMDI2LTAxLTI4OzA0OjE0OjEwIFBNOzI4MTQ="/>
+        <attribute name="edited" value="ZWNydXpsb3BlejtERTIxNS0wMjsyMDI2LTAxLTI4OzA0OjI0OjU3IFBNOzE7MjkzNA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;The sine is &quot; &amp; sin (4.533)" newline="True"/>
+            <output expression="&quot;The square root is &quot; &amp; Sqrt (7.5)" newline="True"/>
+            <declare name="bigPi" type="Real" array="False" size=""/>
+            <assign variable="bigPi" expression="3.141592654932"/>
+            <output expression="&quot;big pi is &quot; &amp; bigPi" newline="True"/>
+            <output expression="&quot;Trimmed pi is &quot; &amp; ToFixed (bigPi, 3)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
