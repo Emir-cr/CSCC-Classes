@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="flt_math"/>
+        <attribute name="authors" value="ecruzlopez"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-28 04:13:03 PM"/>
+        <attribute name="created" value="ZWNydXpsb3BlejtERTIxNS0wMjsyMDI2LTAxLTI4OzAzOjU0OjQzIFBNOzI4MjM="/>
+        <attribute name="edited" value="ZWNydXpsb3BlejtERTIxNS0wMjsyMDI2LTAxLTI4OzA0OjEzOjAzIFBNOzI7MjkyNA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="result" type="Real" array="False" size=""/>
+            <assign variable="result" expression="5.0"/>
+            <output expression="&quot;The result is &quot; &amp; result" newline="True"/>
+            <assign variable="result" expression="result + 4.78"/>
+            <output expression="&quot;The result is &quot; &amp; result" newline="True"/>
+            <assign variable="result" expression="result - 1.42"/>
+            <output expression="&quot;The result is &quot; &amp; result" newline="True"/>
+            <assign variable="result" expression="result * 3.01"/>
+            <output expression="&quot;The result is &quot; &amp; result" newline="True"/>
+            <assign variable="result" expression="result / 3.66"/>
+            <output expression="&quot;The result is &quot; &amp; result" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
